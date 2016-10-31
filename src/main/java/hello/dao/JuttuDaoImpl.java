@@ -30,7 +30,6 @@ public class JuttuDaoImpl implements JuttuDao {
 	public List<Juttu> listJuttus() {
 		return jdbcTemplate.query("SELECT juttuid, nimi FROM juttu", new JuttuRowMapper());
 	}
-
 }
 
 class JuttuRowMapper implements RowMapper<Juttu> {

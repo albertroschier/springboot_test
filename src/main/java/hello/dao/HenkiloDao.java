@@ -15,5 +15,5 @@ public interface HenkiloDao {
 	void updateHenkilo(Henkilo henkilo);
 	
 	void deleteHenkilo(Henkilo henkilo);
+	
 }
-

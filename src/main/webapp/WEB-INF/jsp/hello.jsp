@@ -19,19 +19,20 @@
 
 <head>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-	<title>Testi</title>
+	<title>Springboot Test</title>
 </head>
 
 <h1>
-	<span>Testi</span>
+	<span>Springboot-testi</span>
 </h1>
 
 <table>
 	<c:forEach items="${henkilo}" var="henkilo">
 		<tr>
-	        <td>Etunimi: <c:out value="${henkilo.etunimi}"/>‌‌ ‌‌ ‌‌ ‌‌ </td>
-	        <td>Sukunimi: <c:out value="${henkilo.sukunimi}"/>‌‌ ‌‌ ‌‌ ‌‌ </td>
+	        <td><b>Etunimi: </b><c:out value="${henkilo.etunimi}"/>‌‌ ‌‌ ‌‌ ‌‌ </td>
+	        <td><b>Sukunimi: </b><c:out value="${henkilo.sukunimi}"/>‌‌ ‌‌ ‌‌ ‌‌ </td>
 			<td>
+				 ‌‌ ‌‌ ‌‌ 
 				<c:url var="thisURL" value="/update">
 				<c:param name="henkiloid" value="${henkilo.henkiloid}"/>
 				</c:url><a href="<c:out value="${thisURL}"/>">Muokkaa</a>
@@ -44,7 +45,7 @@
 	</c:forEach>
 	<c:forEach items="${juttu}" var="juttu">
 		<tr>
-	        <td>Jutun nimi: <c:out value="${juttu.nimi}"/></td>
+	        <td><b>Jutun nimi: </b><c:out value="${juttu.nimi}"/></td>
 	    </tr>
 	</c:forEach>
 </table>
@@ -60,7 +61,7 @@
 	<br> 
 	<br>
 	<br> 
-		<input type="submit" value="Lähetä">
+		<input type="submit" value="Lisää henkilö">
 	<br>
 </form>
 

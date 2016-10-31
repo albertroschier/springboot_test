@@ -1,24 +1,24 @@
 INSERT INTO juttu VALUES (
 	1,
-	'Jutska'
+	'Juttu 1'
 );
 
 INSERT INTO henkilo VALUES (
 	1,
 	1,
-	'Albert',
-	'Roschier'
+	'Etunimi 1',
+	'Sukunimi 1'
 );
 
 INSERT INTO henkilo VALUES (
 	2,
 	NULL,
-	'Tuire',
-	'Yli-Baskeri'
+	'Etunimi 2',
+	'Sukunimi 2'
 );
 
 INSERT INTO henkilo (henkiloid, etunimi, sukunimi) VALUES (
 	3,
-	'Tuure',
-	'Ali-Baskeri'
+	'Etunimi 3',
+	'Sukunimi 3'
 );

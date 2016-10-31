@@ -26,15 +26,15 @@
 		<input type="hidden" value="${henkilo.henkiloid}" id="henkiloid" type="text" name="henkiloid">
 	<br>
 		<p>Etunimi:</p>
-		<input value="${henkilo.etunimi}" id="etunimi" type="text" name="etunimi" placeholder="Kirjoita etunimesi">
+		<input value="${henkilo.etunimi}" id="etunimi" type="text" name="etunimi" placeholder="Vaihda etunimesi">
 	<br>
 	<br>
 		<p>Sukunimi:</p>
-		<input value="${henkilo.sukunimi}" id="sukunimi" type="text" name="sukunimi" placeholder="Kirjoita sukunimesi"> 
+		<input value="${henkilo.sukunimi}" id="sukunimi" type="text" name="sukunimi" placeholder="Vaihda sukunimesi"> 
 	<br> 
 	<br>
 	<br> 
-		<input type="submit" value="Päivitä">
+		<input type="submit" value="Päivitä tiedot">
 	<br>
 </form>
 

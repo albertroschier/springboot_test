@@ -9,4 +9,5 @@ public interface JuttuDao {
 	Juttu getJuttu(int juttuid);
 	
 	List<Juttu> listJuttus();
+	
 }

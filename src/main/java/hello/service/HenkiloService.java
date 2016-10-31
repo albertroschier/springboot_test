@@ -5,6 +5,7 @@ import java.util.List;
 import hello.Henkilo;
 
 public interface HenkiloService {
+	
 	Henkilo getHenkilo(int henkiloid);
 	
 	List<Henkilo> listHenkilos();
@@ -14,4 +15,5 @@ public interface HenkiloService {
 	void updateHenkilo(Henkilo henkilo);
 	
 	void deleteHenkilo(Henkilo henkilo);
+	
 }

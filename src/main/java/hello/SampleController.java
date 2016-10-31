@@ -24,17 +24,6 @@ public class SampleController {
 	@Autowired
 	private JuttuService juttuService;
 
-	@RequestMapping("/")
-	@ResponseBody
-	String home() {
-		return "Hello World!";
-	}
-
-	@RequestMapping("/asd/{someID}")
-	public @ResponseBody String getAttrbyregex(@PathVariable(value = "someID") String id) {
-		return id;
-	}
-
 	@GetMapping("/hello")
 	public String getHello(Map<String, Object> model) {
 		model.put("example", "");

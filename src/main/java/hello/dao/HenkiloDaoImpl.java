@@ -46,8 +46,6 @@ public class HenkiloDaoImpl implements HenkiloDao {
 		jdbcTemplate.update("DELETE FROM henkilo WHERE henkiloid=?",
 		new Object[] {henkilo.getHenkiloid()} );
 	}
-
-
 }
 
 class HenkiloRowMapper implements RowMapper<Henkilo> {
@@ -59,5 +57,5 @@ class HenkiloRowMapper implements RowMapper<Henkilo> {
 		h.setSukunimi(arg0.getString("sukunimi"));
 		return h;
 	}
-
+	
 }
